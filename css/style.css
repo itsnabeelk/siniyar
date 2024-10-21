@@ -2744,3 +2744,128 @@ a:hover {
   text-align: center;
   font-size: 4em;
 }
+
+
+
+
+/* media-screen */
+
+@media (max-width:986px) {
+  .master-div-abt {
+    flex-direction: column;
+    position: relative;
+  }
+  .master-image-abt img {
+    height: auto;
+}
+.master-image-abt {
+  width: 100%;
+}
+.master-div-abt {
+  height: auto;
+}
+.master-content-abt {
+  width: 100%;
+}
+.counter-main {
+  height: auto;
+  position: relative;
+}
+.master-div-abt {
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 50px;
+}
+.project-heading a {
+  top: 0;
+}
+.client-logo {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  position: relative;
+}
+.master-content-abt h1 {
+  margin-top: 50px;
+}
+.logogrid {
+  padding-left: 0;
+}
+.form-content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px !important;
+}
+.master-content-abt {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.slick-slider {
+  height: 70vh;
+}
+.slider-item img {
+  height: 70vh !important;
+}
+.slider_banner .slick-dots{
+  display: none !important;
+}
+.item-text p {
+  margin-top: 25px;
+  font-size: 12px;
+  max-width: 180px;
+}
+.navigation-portrait .nav-menus-wrapper {
+  background-color: #0d0d0d;
+  padding: 15px;
+}
+.nav-menus-wrapper-close-button {
+  color: #ffffff;
+}
+.innerpage-banner {
+  height: 50vh;
+}
+.innerpage-banner img {
+  height: 50vh;
+}
+.about-home p::after {
+  position: absolute;
+  content: "Quality of life solutions";
+  color: #fff;
+  font-weight: 800;
+  font-size: 8vh;
+  opacity: 0.1;
+  left: 0;
+  top: 125%;
+}
+.icondiv-m {
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+  border: 1px dashed #c9c9c9;
+  transition: 1s ease-in;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-title {
+  width:100% !important;
+}
+.recent-posts .post-box p {
+  width: 100%;
+}
+.tabcontent p {
+  display: block;
+  padding-right: 0;
+  margin-bottom: 30px;
+}
+}
+
+
+
+
+/* close */
